@@ -10,10 +10,10 @@ leftEl.addEventListener("mouseleave", () => {
     containerEl.classList.remove("active-left");
 })
 
-.rightEl.addEventListener("mouseenter", () => {
+rightEl.addEventListener("mouseenter", () => {
     containerEl.classList.add("active-right");
 })
 
-.rightEl.addEventListener("mouseleave", () => {
+rightEl.addEventListener("mouseleave", () => {
     containerEl.classList.remove("active-right");
 })
